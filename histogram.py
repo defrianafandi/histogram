@@ -61,9 +61,9 @@ def histogram(gambar):
             pixel_g[x, y] = (0, intensitas_g, 0)
             pixel_b[x, y] = (0, 0, intensitas_b)
 
-    gambar_r.save('img/' + get_file_name(gambar) + '_r.jpg')
-    gambar_g.save('img/' + get_file_name(gambar) + '_g.jpg')
-    gambar_b.save('img/' + get_file_name(gambar) + '_b.jpg')
+    gambar_r.save('img/' + get_file_name(gambar) + '_R.jpg')
+    gambar_g.save('img/' + get_file_name(gambar) + '_G.jpg')
+    gambar_b.save('img/' + get_file_name(gambar) + '_B.jpg')
 
     tampilkan_histogram(r, g, b, gambar)
 
