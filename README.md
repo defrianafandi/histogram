@@ -106,7 +106,7 @@ Hasil Histogram:
 
 R | G | B
 --- | - | -
-![](img/gambar_R.jpg) | ![](img/gambar_G.jpg) | ![](img/gambar_B.jpg)
+![](img/gambar_r.jpg) | ![](img/gambar_g.jpg) | ![](img/gambar_b.jpg)
 
 Semua source code dan gambar yang digunakan dalam tugas ini bisa didapat di link berikut:                                                   
 https://github.com/defrianafandi/histogram
