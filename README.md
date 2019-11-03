@@ -1,15 +1,11 @@
-M Imam Pratama  
-09021281722063  
-IF Reg A 17
+**Defrian Afandi**  
+**09021281722075**  
+**Teknik Informatika Reg 5A**
 
-# Histogram
+# Tugas Histogram
 
-Membuat histogram citra menggunakan Python 3. Semua source code dan gambar yang
-digunakan dalam tugas ini bisa didapat di link berikut:
-https://github.com/imambungo/histogram.
-
-## Requirement
-
+Membuat histogram citra menggunakan bahasa Python.                               
+Library yang dipakai :                                                 
 - matplotlib
 - PIL (Python Image Library)
 
@@ -19,7 +15,7 @@ Kedua module di atas bisa diinstall menggunakan command berikut:
 pip3 install matplotlib pillow
 ```
 
-## Program
+## Source code
 
 [histogram.py](histogram.py) :
 ```python
@@ -86,30 +82,31 @@ def histogram(gambar):
             pixel_g[x, y] = (0, intensitas_g, 0)
             pixel_b[x, y] = (0, 0, intensitas_b)
 
-    gambar_r.save('img/' + get_file_name(gambar) + '_r.jpg')
-    gambar_g.save('img/' + get_file_name(gambar) + '_g.jpg')
-    gambar_b.save('img/' + get_file_name(gambar) + '_b.jpg')
+    gambar_r.save('img/' + get_file_name(gambar) + '_R.jpg')
+    gambar_g.save('img/' + get_file_name(gambar) + '_G.jpg')
+    gambar_b.save('img/' + get_file_name(gambar) + '_B.jpg')
 
     tampilkan_histogram(r, g, b, gambar)
 
 
 histogram('img/gambar.jpg')
-histogram('img/gambar2.jpg')
 ```
 
-## Histogram
+### Hasil
+Sample gambar :                                                          
 
-### Sample 1
+![](img/gambar.jpg)                                           
+[gambar.jpg](img/gambar.jpg)
 
-[gambar.jpg](img/gambar.jpg) :
-![](img/gambar.jpg)
+Hasil Histogram:                                                     
 
-#### Histogram
-
-![](img/histogram_1.png)
+![](img/histogram.png)
 
 #### Komposisi RGB
 
 R | G | B
 --- | - | -
-![](img/gambar_r.jpg) | ![](img/gambar_g.jpg) | ![](img/gambar_b.jpg)
+![](img/gambar_R.jpg) | ![](img/gambar_G.jpg) | ![](img/gambar_B.jpg)
+
+Semua source code dan gambar yang digunakan dalam tugas ini bisa didapat di link berikut:                                                   
+https://github.com/defrianafandi/histogram
